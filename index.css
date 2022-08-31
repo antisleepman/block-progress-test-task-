@@ -124,9 +124,8 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="checkbox"]
 {
     position: relative;
-    padding: 1em;
     width: 250px;
-    height: 150px;
+    height: 165px;
     -webkit-appearance: none;
     background: #c6c6c6;
     outline: none;
@@ -154,9 +153,16 @@ input[type="checkbox"]:before{
 
 input:checked[type="checkbox"]:before
 {
-left: 109px;
+left: 86px;
 }
 label{
   font-size: 55px;
 }
 
+ [type=checkbox]:after {
+  content: attr(value);
+  margin: 35px 260px;
+  vertical-align:middle;
+  white-space: nowrap;
+  display: inline-block;
+}
