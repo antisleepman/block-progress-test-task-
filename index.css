@@ -3,8 +3,6 @@ body {
   }
 
   html {
-    height: 100%;
-    width: 100%;
     background: #f8fcff;
   }
 
@@ -52,7 +50,6 @@ body {
 {
   display: flex;
   flex-direction: column;
-  left: 55px;
   gap: 20px;
   height: 50vmin;
   width: 50vmin;
@@ -92,19 +89,15 @@ opacity: 0;
     transform: rotate(360deg);
   }
 }
-  input p {
-    margin: 50px 0; 
-    display:block;
-  }
 
 input[type="number"] 
 {
     box-sizing: border-box;
     text-align:center;
     font-weight:bold;
-    font-size:66px;
+    font-size:64px;
     width: 250px;
-    height: 140px;
+    height: 165px;
     padding: 1em;
     border: 4px solid black;
     border-radius: 120px;
@@ -131,8 +124,9 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="checkbox"]
 {
     position: relative;
+    padding: 1em;
     width: 250px;
-    height: 140px;
+    height: 150px;
     -webkit-appearance: none;
     background: #c6c6c6;
     outline: none;
@@ -147,8 +141,8 @@ input:checked[type="checkbox"]{
 input[type="checkbox"]:before{
     content: '';
     position: absolute;
-    width: 140px;
-    height: 140px;
+    width: 165px;
+    height: 165px;
     border-radius: 120px;
     top: 0;
     left: 0;
@@ -163,5 +157,6 @@ input:checked[type="checkbox"]:before
 left: 109px;
 }
 label{
-  font-size: 58px;
+  font-size: 55px;
 }
+
