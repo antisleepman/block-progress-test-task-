@@ -1,0 +1,134 @@
+@media (orientation: landscape) {
+    .main{
+        flex-direction: row;
+        gap: 220px;
+    }
+    .RadialProgress{
+        margin-top: 120px;
+        margin-left: 55px;
+    }
+    .Control{
+        margin-top: 120px;
+        gap: 20px;
+    }
+    input[type="number"]{
+    font-size:30px;
+    width: 130px;
+    height: 70px;
+    border: 2px solid black;
+    }
+
+    input[type="checkbox"]{
+        width: 130px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input[type="checkbox"]:before{
+        width: 70px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input:checked[type="checkbox"]:before
+    {
+        left: 59px;
+    }
+
+    label{
+        font-size: 20px;
+        font-weight:bold
+      }
+
+}
+
+
+@media only screen and (max-width:768px){
+    .main{
+        gap: 220px;
+    }
+    .RadialProgress{
+        margin-top: 120px;
+        margin-left: 55px;
+    }
+    .Control{
+        margin-top: 120px;
+        gap: 20px;
+    }
+    input[type="number"]{
+    font-size:30px;
+    width: 130px;
+    height: 70px;
+    border: 2px solid black;
+    }
+
+    input[type="checkbox"]{
+        width: 130px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input[type="checkbox"]:before{
+        width: 70px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input:checked[type="checkbox"]:before
+    {
+        left: 59px;
+    }
+
+    label{
+        font-size: 20px;
+        font-weight:bold
+      }
+
+}
+
+@media  (max-width:480px){
+    .main{
+        gap: 350px;
+    }
+    .RadialProgress{
+        margin-top: 120px;
+        margin-left: 55px;
+    }
+    .Control{
+        margin-top: 120px;
+        gap: 20px;
+    }
+    input[type="number"]{
+    font-size:30px;
+    width: 130px;
+    height: 70px;
+    border: 2px solid black;
+    }
+
+    input[type="checkbox"]{
+        width: 130px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input[type="checkbox"]:before{
+        width: 70px;
+        height: 70px;
+        border-radius: 30px;
+    }
+
+    input:checked[type="checkbox"]:before
+    {
+        left: 59px;
+    }
+
+    label{
+        font-size: 20px;
+        font-weight:bold
+      }
+
+}
+
+@media only screen and  (max-width:320px){
+    
+}

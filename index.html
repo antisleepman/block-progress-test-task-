@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chukraliev Arsen Progress bar</title>
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./adaptive.css">
+</head>
+
+<body>
+    <main class="main">
+    <div class="RadialProgress"  onchange="handleChange(this);" role="progressbar"></div>
+    <div class="Control">
+        <label>
+        <input type="number" value="60" min="0" max="100"/>
+        Value
+        </label>
+       <label>
+       <input type="checkbox" data-class="rotate"  onchange="onCheckboxChange(this)" />
+       Animate
+       </label>
+      <label>
+        <input type="checkbox" data-class="hidden"  onchange="onCheckboxChange(this)"/>
+        Hide
+      </label>
+    </div>
+</main>
+  <script src="./main.js"></script>
+</body>
+
+</html>
